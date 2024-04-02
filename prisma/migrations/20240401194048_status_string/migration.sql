@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `status` MODIFY `status` VARCHAR(191) NOT NULL,
+    MODIFY `created_at` DATETIME(3) NULL DEFAULT CURRENT_TIMESTAMP(3);
